@@ -1,7 +1,7 @@
 {
 	"id": "line-mover",
 	"name": "Line Mover",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"minAppVersion": "0.15.0",
 	"description": "Moves the currently selected line up or down.",
 	"author": "Abtin",
