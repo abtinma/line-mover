@@ -26,7 +26,7 @@ export default class LineMover extends Plugin {
 		await this.loadSettings();
 
 		// This creates an icon in the left ribbon.
-		function moveLine(editor, direction) {
+		function moveLine(editor: Editor, direction: string) {
 			let cursor = editor.getCursor();
 			let line = editor.getLine(cursor.line);
 
